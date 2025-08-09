@@ -1,0 +1,16 @@
+[package]
+name = "AptosVault"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "ad38709cfaf338888fb02c9f7d5cacc70e05ef4753e748140fa81aef21a72053"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
